@@ -1,3 +1,9 @@
+/*  Type selectors  */
+body {
+    color: #5B4636;
+    background-color: #F4ECD8;
+}
+
 /*  Class selectors  */
 .container {
     margin: auto;
@@ -18,7 +24,6 @@
     margin: auto;
 }
 
-
 /*  ID selectors  */
 #contact {
     margin: 5% 0;
@@ -32,7 +37,6 @@
 #contact li {
     padding: 0 30px 0 0;
 }
-
 
 /*  Descendant selectors  */
 header img {
@@ -54,7 +58,6 @@ nav ul li {
     display: inline;
     padding: 0 20px 0 0;
 }
-
 
 /*  Pseudo-class selectors  */
 a:link {
