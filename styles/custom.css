@@ -38,3 +38,33 @@ a:active {
 }
 
 
+/* Base styles */
+#block {
+    display: none;
+}
+
+#inline {
+    display: none;
+}
+
+.test {
+    background: yellow;
+    /*display: inline-block;*/
+}
+
+.test6, .test7,
+.test8, .test9 {
+    float: left;
+    height: 200px;
+    margin-right: 2%;
+    width: 22%;
+}
+
+/* TestDrive styles */
+
+
+
+
+
+
+
