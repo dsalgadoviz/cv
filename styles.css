@@ -1,0 +1,80 @@
+/*  Class selectors  */
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.name {
+    font-size: 5em;
+    margin: auto;
+}
+
+.role {
+    font-style: italic;
+}
+
+.title {
+    font-size: 3em;
+    margin: auto;
+}
+
+
+/*  ID selectors  */
+#contact {
+    margin: 5% 0;
+}
+
+#contact ul {
+    margin: auto;
+    width: 96%;
+}
+
+#contact li {
+    padding: 0 30px 0 0;
+}
+
+
+/*  Descendant selectors  */
+header img {
+    display: inline;
+    margin: 0 20px 0 0;
+    width: 10%;
+}
+
+header h1 {
+    display: inline;
+    width: 90%;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 20px 0 0;
+}
+
+
+/*  Pseudo-class selectors  */
+a:link {
+    color: darkred;
+}
+
+a:visited {
+    color: darkgoldenrod;
+}
+
+a:focus {
+    color: coral;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: black;
+}
+
+
