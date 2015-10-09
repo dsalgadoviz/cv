@@ -40,7 +40,7 @@ a:active {
 
 /* Base styles */
 #block {
-    display: none;
+    /*display: none;*/
 }
 
 #inline {
@@ -61,10 +61,62 @@ a:active {
 }
 
 /* TestDrive styles */
+.test1 {
+    width: 50%;
+}
 
+.test2 {
+    height: 6em;
+}
 
+.test3 {
+    margin: 4em ;
+}
 
+.test4 {
+    padding: 4em;
+}
 
+.test5 {
+    border: 1.5em solid red;
+}
 
+.test6 {
+    overflow: visible;
+}
+
+.test7 {
+    overflow: hidden;
+}
+
+.test8 {
+    overflow: scroll;
+}
+
+.test9 {
+    overflow: auto;
+}
+
+/*
+.test10 {
+    width: 30px;
+}
+
+.test11 {
+    height: 4em;
+}
+
+.test12 {
+    margin: 4em;
+}
+
+.test13 {
+    padding: 4em;
+}
+
+.test14 {
+    border: 1em solid darkred;
+}
+*/
 
 
