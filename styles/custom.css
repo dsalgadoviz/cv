@@ -1,7 +1,7 @@
 /*  Class selectors  */
 .container {
     margin: auto;
-    width: 80%;
+    width: 60%;
 }
 
 
@@ -49,74 +49,38 @@ a:active {
 
 .test {
     background: yellow;
-    /*display: inline-block;*/
-}
-
-.test6, .test7,
-.test8, .test9 {
-    float: left;
-    height: 200px;
-    margin-right: 2%;
-    width: 22%;
 }
 
 /* TestDrive styles */
-.test1 {
-    width: 50%;
+body {
+    background-color: green;
 }
 
-.test2 {
-    height: 6em;
+@media (min-width:350px) {
+    body {
+        background-color: brown;
+    }
 }
 
-.test3 {
-    margin: 4em ;
+@media (min-width:400px) {
+    body {
+        background-color: blue;
+    }
 }
 
-.test4 {
-    padding: 4em;
+
+@media (min-width:600px) {
+    body {
+        background-color: lime;
+    }
 }
 
-.test5 {
-    border: 1.5em solid red;
+@media (min-width:800px) {
+    body {
+        background-color: purple;
+    }
 }
 
-.test6 {
-    overflow: visible;
-}
 
-.test7 {
-    overflow: hidden;
-}
-
-.test8 {
-    overflow: scroll;
-}
-
-.test9 {
-    overflow: auto;
-}
-
-/*
-.test10 {
-    width: 30px;
-}
-
-.test11 {
-    height: 4em;
-}
-
-.test12 {
-    margin: 4em;
-}
-
-.test13 {
-    padding: 4em;
-}
-
-.test14 {
-    border: 1em solid darkred;
-}
-*/
 
 
